@@ -18,6 +18,9 @@ This repository provides a curated list of **datasets** and **literature** for m
 | Stanford2D3D | 2D-3D-S: A Large-Scale Indoor Dataset for 3D Semantic Segmentation | CVPR | 2017 | [Link](http://buildingparser.stanford.edu/dataset.html) |
 | ScanNetV2 | ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes | CVPR | 2017 | [Link](http://www.scan-net.org/) |
 | Cityscapes (Stereo) | The Cityscapes Dataset for Semantic Urban Scene Understanding | CVPR | 2016 | [Link](https://www.cityscapes-dataset.com/) |
+| SYNTHIA2Cityscapes&SELMA2Cityscapes | Source-Free Domain Adaptation for RGB-D Semantic Segmentation with Vision Transformers | WACV | 2023 | [Link](https://arxiv.org/abs/2305.14269) |
+| NYUDv2 | Self-Enhanced Feature Fusion for RGB-D Semantic Segmentation | IEEE SPL | 2024 | [Link](https://ieeexplore.ieee.org/document/10706844/) |
+
 
 ---
 
@@ -28,6 +31,17 @@ This repository provides a curated list of **datasets** and **literature** for m
 | KAIST Multispectral | Multispectral Pedestrian Detection: Benchmark Dataset and Baseline | CVPRW | 2015 | [Link](https://soonminhwang.github.io/rgbt-ped-detection/) |
 | LLVIP | LLVIP: A Visible-Thermal Paired Dataset for Low-Light Vision | ECCV | 2022 | [Link](https://github.com/wyf0912/LLVIP) |
 | PST900 | PST900: RGB-Thermal Dataset for Segmentation | IJCAI | 2021 | [Link](https://github.com/Vanint/PST900_RGBT) |
+| MFNet | MS-IRTNet: Multistage information interaction network for RGB-T semantic segmentation | Information Sciences	 | 2021 | [Link](https://github.com/poisonzzw/MS-IRTNet) |
+| MFNet | UTFNet: Uncertainty-Guided Trustworthy Fusion Network for RGB-Thermal Semantic Segmentation | IEEE | 2023 | [Link](https://github.com/KustTeamWQW/UTFNet) |
+| MFNet&PST900 | Region-adaptive and context-complementary cross modulation for RGB-T semantic segmentation | Pattern Recognition | 2024 | [Link](https://linkinghub.elsevier.com/retrieve/pii/S0031320323007896) |
+| MFNet&PST900 | RGB-T Semantic Segmentation With Location, Activation, and Sharpening | TCSVT | 2023 | [Link](https://github.com/MathLee/LASNet) |
+| MVSeg | Multispectral Video Semantic Segmentation: A Benchmark Dataset and Baseline | CVPR | 2023 | [Link](https://ieeexplore.ieee.org/document/10203299/) |
+| MFNet&PST900 | MMSMCNet: Modal Memory Sharing and Morphological Complementary Networks for RGB-T Urban Scene Semantic Segmentation | IEEE | 2023 | [Link](https://github.com/2021nihao/MMSMCNet) |
+| MFNet&PST900 | Mitigating Modality Discrepancies for RGB-T Semantic Segmentation | IEEE | 2024 | [Link](https://ieeexplore.ieee.org/document/10008228/) |
+| MFNet&PST900 | GMNet: Graded-Feature Multilabel-Learning Network for RGB-Thermal Urban Scene Semantic Segmentation |  | 2023 | [Link](https://ieeexplore.ieee.org/document/9531449/) |
+| MFNet | FEANet: Feature-Enhanced Attention Network for RGB-Thermal Real-time Semantic Segmentation | IEEE | 2021 | [Link](https://ieeexplore.ieee.org/document/9636084/) |
+| MFNet&PST900 | Complementarity-aware cross-modal feature fusion network for RGB-T semantic segmentation | Pattern Recognition | 2022 | [Link](https://linkinghub.elsevier.com/retrieve/pii/S0031320322003624) |
+| MFNet | ABMDRNet: Adaptive-weighted Bi-directional Modality Difference Reduction Network for RGB-T Semantic Segmentation | CVPR | 2021 | [Link](https://ieeexplore.ieee.org/document/9578077/) |
 
 ---
 
@@ -38,6 +52,7 @@ This repository provides a curated list of **datasets** and **literature** for m
 | DSEC | The DSEC Dataset for Event-based Stereo Visual Odometry | RA-L + ICRA | 2021 | [Link](https://dsec.ifi.uzh.ch/) |
 | ESS | ESS: Learning Event-based Semantic Segmentation from Still Images | CVPR | 2021 | [Link](https://github.com/lyuchenyang/ESS) |
 | DDD17 | Driving Dataset for Event Cameras (DDD17) | arXiv | 2017 | [Link](https://github.com/uzh-rpg/rpg_davis_data) |
+| DSEC | SAM-Event-Adapter: Adapting Segment Anything Model for Event-RGB Semantic Segmentation | ICRA | 2024 | [Link](https://ieeexplore.ieee.org/document/10611127/) |
 
 ---
 
@@ -200,6 +215,7 @@ This repository provides a curated list of **datasets** and **literature** for m
 | Cross-Domain and Cross-Modal Knowledge Distillation for 3D Segmentation | CVPR | 2022 | KD from Source RGB-LiDAR to Target | [arXiv](https://arxiv.org/abs/2203.05906) |
 | Sparse-to-Dense Feature Matching in Cross-Modal Domain Adaptation | ECCV | 2022 | Multi-Level Alignment for RGB-LiDAR | [arXiv](https://arxiv.org/abs/2208.01952) |
 | VFM-DA: Vision Foundation Models for Cross-Modal DA | ICCV | 2023 | Foundation Model Pretraining + Adaptation | [arXiv](https://arxiv.org/abs/2304.04513) |
+| Towards Source-Free Domain Adaptive Semantic Segmentation Via Importance-Aware and Prototype-Contrast Learning | IEEE | 2024 | Importance-Aware + Prototype-Contrast | [arXiv](https://arxiv.org/abs/2306.01598) |
 
 #### 💡 Notes:
 - There is both **modality change** and **domain change** (e.g., RGB-D from indoor→outdoor).
